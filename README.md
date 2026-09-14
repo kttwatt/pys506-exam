@@ -28,10 +28,8 @@
 
 | ไฟล์ | คำอธิบาย |
 |---|---|
-| 📄 [pys506-exam-all-topics.md](pys506-exam-all-topics.md) | สรุปครบทุกหัวข้อสอบ ทั้ง 7 หัวข้อ พร้อมตาราง จุด ★ สำคัญ และจุดที่มักออกสอบ — **ไฟล์หลัก** |
 | 🌐 [pys506-exam-all-topics.html](pys506-exam-all-topics.html) | สรุปเนื้อหาเดียวกัน ในรูปแบบหน้าเว็บธีมเข้ม อ่านง่ายบนมือถือ/คอม |
 | 🧠 [pys506-exam-all-topics.mmd](pys506-exam-all-topics.mmd) | แผนผังความคิด (Mermaid mindmap) สรุปโครงสร้างเนื้อหาทั้งหมด |
-| 🎴 [pys506-exam-all-topics-flash.md](pys506-exam-all-topics-flash.md) | flashcard คำถาม–เฉลย รูปแบบข้อความ |
 | 🎴 [pys506-exam-all-topics-flash.csv](pys506-exam-all-topics-flash.csv) | flashcard แบบ tab-separated นำเข้า Anki ได้โดยตรง |
 | 🃏 [pys506-flashcards.html](pys506-flashcards.html) | แอป flashcard เล่นได้บนเว็บ 127 ใบ คลิกพลิกการ์ด สับสำรับ กดปุ่มถัดไป |
 
@@ -39,10 +37,8 @@
 
 | ไฟล์ | คำอธิบาย |
 |---|---|
-| 📄 [รวมวิชาการประเมินภาวะสุขภาพ.md](รวมวิชาการประเมินภาวะสุขภาพ.md) | สรุปรวมวิชาเวอร์ชันก่อน รวมเนื้อหา APTM (stenosis/regurgitation) |
 | 🌐 [รวมวิชาการประเมินภาวะสุขภาพ.html](รวมวิชาการประเมินภาวะสุขภาพ.html) | เวอร์ชันหน้าเว็บของสรุปรวมวิชาข้างต้น |
 | 🧠 [รวมวิชาการประเมินภาวะสุขภาพ.mmd](รวมวิชาการประเมินภาวะสุขภาพ.mmd) | แผนผังความคิด (Mermaid mindmap) ของสรุปรวมวิชา |
-| 🎴 [รวมวิชาการประเมินภาวะสุขภาพ-flash.md](รวมวิชาการประเมินภาวะสุขภาพ-flash.md) | flashcard คำถาม–เฉลย รูปแบบข้อความ |
 | 🎴 [รวมวิชาการประเมินภาวะสุขภาพ-flash.csv](รวมวิชาการประเมินภาวะสุขภาพ-flash.csv) | flashcard แบบ tab-separated นำเข้า Anki ได้ |
 
 ## สรุปแยกรายหัวข้อ (topics/)
@@ -51,20 +47,16 @@
 
 | ไฟล์ | คำอธิบาย |
 |---|---|
-| 📄 [topics/2026-09-12-pe-breast-abdomen-genitalia.md](topics/2026-09-12-pe-breast-abdomen-genitalia.md) | สรุปเนื้อหาหัวข้อ |
 | 🌐 [topics/2026-09-12-pe-breast-abdomen-genitalia.html](topics/2026-09-12-pe-breast-abdomen-genitalia.html) | เวอร์ชันหน้าเว็บ |
 | 🧠 [topics/2026-09-12-pe-breast-abdomen-genitalia.mmd](topics/2026-09-12-pe-breast-abdomen-genitalia.mmd) | แผนผังความคิด |
-| 🎴 [topics/2026-09-12-pe-breast-abdomen-genitalia-flash.md](topics/2026-09-12-pe-breast-abdomen-genitalia-flash.md) | flashcard ข้อความ |
 | 🎴 [topics/2026-09-12-pe-breast-abdomen-genitalia-flash.csv](topics/2026-09-12-pe-breast-abdomen-genitalia-flash.csv) | flashcard CSV (Anki) |
 
 ### หัวข้อ 6 — PE Nervous System and Musculoskeletal System (12 ข้อ)
 
 | ไฟล์ | คำอธิบาย |
 |---|---|
-| 📄 [topics/2026-09-12-pe-neuro-msk.md](topics/2026-09-12-pe-neuro-msk.md) | สรุปเนื้อหาหัวข้อ |
 | 🌐 [topics/2026-09-12-pe-neuro-msk.html](topics/2026-09-12-pe-neuro-msk.html) | เวอร์ชันหน้าเว็บ |
 | 🧠 [topics/2026-09-12-pe-neuro-msk.mmd](topics/2026-09-12-pe-neuro-msk.mmd) | แผนผังความคิด |
-| 🎴 [topics/2026-09-12-pe-neuro-msk-flash.md](topics/2026-09-12-pe-neuro-msk-flash.md) | flashcard ข้อความ |
 | 🎴 [topics/2026-09-12-pe-neuro-msk-flash.csv](topics/2026-09-12-pe-neuro-msk-flash.csv) | flashcard CSV (Anki) |
 
 ## หมายเหตุ
