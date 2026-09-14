@@ -1,0 +1,82 @@
+Skin	สี (Color), รอยโรค (Lesions)	สรุป2026-09-01-pe-thorax
+Normal adult	1:2	สรุป2026-09-01-pe-thorax
+Barrel chest (อกถัง)	ประมาณ 1:1	สรุป2026-09-01-pe-thorax
+Funnel chest (Pectus excavatum)	AP diameter ลดลง	สรุป2026-09-01-pe-thorax
+Pigeon chest (Pectus carinatum)	AP กว้างขึ้น	สรุป2026-09-01-pe-thorax
+Postural Kyphosis	ท่าทางไม่เหมาะสม เช่น นั่งหลังค่อมนาน แนวกระดูกยังยืดหยุ่นได้	สรุป2026-09-01-pe-thorax
+Scheuermann's Kyphosis (Juvenile Kyphosis)	ความผิดปกติของโครงสร้างกระดูกสันหลัง เปลี่ยนรูปเป็น vertebral wedging หลายระดับ	สรุป2026-09-01-pe-thorax
+Congenital Kyphosis	ความผิดปกติของการพัฒนากระดูกสันหลังตั้งแต่กำเนิด	สรุป2026-09-01-pe-thorax
+Age-related/Degenerative Kyphosis	เกี่ยวข้องกับการเสื่อมของกระดูกสันหลัง หมอนรองกระดูก กล้ามเนื้อ, กระดูกพรุน, กระดูกสันหลังยุบ	สรุป2026-09-01-pe-thorax
+Tachypnea	> 24 ครั้ง/นาที	สรุป2026-09-01-pe-thorax
+Hyperventilation	> 24 ครั้ง/นาที	สรุป2026-09-01-pe-thorax
+Bradypnea	< 10 bpm	สรุป2026-09-01-pe-thorax
+Hypoventilation	< 10 bpm	สรุป2026-09-01-pe-thorax
+Dyspnea	-	สรุป2026-09-01-pe-thorax
+Cheyne-Stokes breathing	Rate variable	สรุป2026-09-01-pe-thorax
+Kussmaul respiration	ปกติ/ช้า/เร็ว	สรุป2026-09-01-pe-thorax
+Orthopnea	-	สรุป2026-09-01-pe-thorax
+Sighing Respiration	-	สรุป2026-09-01-pe-thorax
+กลิ่นผลไม้	Diabetic ketoacidosis	สรุป2026-09-01-pe-thorax
+กลิ่นคาว/แอมโมเนีย	Uremia	สรุป2026-09-01-pe-thorax
+กลิ่นปลาหรือถั่วเก่าๆ	Hepatic failure, Portal vein thrombosis	สรุป2026-09-01-pe-thorax
+กลิ่นเหม็น	Intestinal obstruction, Nasal sinus infection, Lung abscess, Bronchiectasis	สรุป2026-09-01-pe-thorax
+กลิ่นเครื่องเทศ	Pulmonic tuberculosis	สรุป2026-09-01-pe-thorax
+Bronchial breath sound	ดัง, ก้อง, ระดับเสียงสูง (loud, hollow, high pitched)	สรุป2026-09-01-pe-thorax
+Bronchovesicular sound	ระดับกลาง (ไม่ระบุรายละเอียดเพิ่มในสไลด์)	สรุป2026-09-01-pe-thorax
+Vesicular breath sounds (Normal lung)	เบา, ทุ้ม, เสียงคล้ายลมพัดใบไม้ (soft, low pitched, rustling)	สรุป2026-09-01-pe-thorax
+Stridor	Dry	สรุป2026-09-01-pe-thorax
+Rhonchi (gurgles)	Dry	สรุป2026-09-01-pe-thorax
+Pleural friction rub	Dry	สรุป2026-09-01-pe-thorax
+Rales (Fine)	Moist	สรุป2026-09-01-pe-thorax
+Rales (Medium)	Moist	สรุป2026-09-01-pe-thorax
+Rales (Coarse)	Moist	สรุป2026-09-01-pe-thorax
+พบใน	Asthma, Tumor, Congestive heart failure, Bronchiolitis, Pneumonia [สไลด์][หน้า 24]	สรุป2026-09-01-pe-thorax
+Monophonic wheezes	เสียงโน้ตเดียว เกิดช่วงหายใจเข้าหรือออก, ความถี่คงที่หรือเปลี่ยนได้, ระยะเวลานานหรือเกิดทั้งสองช่วง	สรุป2026-09-01-pe-thorax
+Polyphonic wheezes	หลายโน้ต เกิดช่วงหายใจออก, pitch สูงขึ้นเมื่อใกล้สิ้นสุดหายใจออก	สรุป2026-09-01-pe-thorax
+Squawks	wheeze สั้นๆ เกิดช่วงหายใจเข้า	สรุป2026-09-01-pe-thorax
+Scars	thoracotomy & sternotomy scars บ่งบอกชนิดการผ่าตัด (closed vs open cardiac surgery)	สรุป2026-09-01-pe-thorax
+**Heaving**	เห็นการยกตัวขึ้นของผนังทรวงอกบริเวณหัวใจ เป็นแรงกระเพื่อม พบเมื่อหัวใจทำงานหนักหรือหัวใจโต (คนปกติไม่พบ) [หน้า 28]	สรุป2026-09-01-pe-thorax
+Aortic area	Aortic stenosis, Aortic regurgitation	สรุป2026-09-01-pe-thorax
+Pulmonic area	Pulmonic stenosis, Pulmonic regurgitation	สรุป2026-09-01-pe-thorax
+Tricuspid area	Tricuspid stenosis, Tricuspid regurgitation	สรุป2026-09-01-pe-thorax
+Mitral area	Mitral stenosis, Mitral (stenosis) regurgitation	สรุป2026-09-01-pe-thorax
+S1 (First heart sound)	Mitral valve & Tricuspid valve	สรุป2026-09-01-pe-thorax
+S2 (Second heart sound)	Pulmonary valve & Aortic valve	สรุป2026-09-01-pe-thorax
+1	เสียงฟู่เบามาก ยากที่จะได้ยินในห้องเงียบ ถ้าให้ผู้ป่วยลุกนั่งอาจไม่ได้ยิน	สรุป2026-09-01-pe-thorax
+2	เสียงฟู่เบา แต่ได้ยินชัด ได้ยินในทุกท่า (นั่ง/นอน)	สรุป2026-09-01-pe-thorax
+3	เสียงฟู่ชัดเจน แต่คลำ thrill ไม่ได้	สรุป2026-09-01-pe-thorax
+4	เสียงฟู่ชัดเจน และคลำ thrill ได้	สรุป2026-09-01-pe-thorax
+5	เสียงฟู่ดังมาก และคลำ thrill ได้ง่าย	สรุป2026-09-01-pe-thorax
+6	เสียงฟู่ดังมาก สังเกตเห็น thrill ได้	สรุป2026-09-01-pe-thorax
+Low pitch	Aortic regurgitation, Mitral stenosis	สรุป2026-09-01-pe-thorax
+Medium pitch	Pulmonic stenosis	สรุป2026-09-01-pe-thorax
+High pitch	Mitral regurgitation, VSD	สรุป2026-09-01-pe-thorax
+**Stenosis (ลิ้นตีบ):** ลิ้นเปิดไม่เต็ม ช่องแคบ เลือดไหลผ่านลำบาก — อุปมา	ประตูเปิดได้ครึ่งเดียว / ท่อน้ำตีบ ต้องใช้แรงดันมากกว่า เกิดเสียง "ฟู่" จากเลือดไหลปั่นป่วนผ่านช่องแคบ	สรุป2026-09-01-pe-thorax
+กลไก	เลือดออกจาก LV ไป Aorta ลำบากช่วง systole	สรุป2026-09-01-pe-thorax
+จังหวะ murmur	**Systolic** crescendo-decrescendo (diamond)	สรุป2026-09-01-pe-thorax
+ตำแหน่งฟังชัด	Aortic area = **ขอบขวาบน sternum ICS 2** ร้าวไปคอ (carotid)	สรุป2026-09-01-pe-thorax
+สาเหตุเด่น	Calcific degeneration (ผู้สูงอายุ), bicuspid valve, rheumatic	สรุป2026-09-01-pe-thorax
+กลไก	เลือดจาก LA เข้า LV ลำบากช่วง diastole	สรุป2026-09-01-pe-thorax
+จังหวะ murmur	**Mid-to-late diastolic** rumbling + **opening snap** ตามหลัง S2	สรุป2026-09-01-pe-thorax
+ตำแหน่งฟังชัด	**Apex** (ICS 5 midclavicular) นอนตะแคงซ้ายฟังชัดสุด	สรุป2026-09-01-pe-thorax
+สาเหตุเด่น	**Rheumatic heart disease** (อันดับ 1)	สรุป2026-09-01-pe-thorax
+กลไก	เลือดจาก RV ออกไปปอดลำบากช่วง systole	สรุป2026-09-01-pe-thorax
+จังหวะ murmur	**Systolic** crescendo-decrescendo	สรุป2026-09-01-pe-thorax
+ตำแหน่งฟังชัด	Pulmonic area = **ขอบซ้ายบน sternum ICS 2**	สรุป2026-09-01-pe-thorax
+สาเหตุเด่น	ส่วนใหญ่ **แต่กำเนิด**	สรุป2026-09-01-pe-thorax
+กลไก	เลือดจาก RA เข้า RV ลำบากช่วง diastole	สรุป2026-09-01-pe-thorax
+จังหวะ murmur	**Diastolic** rumbling (คล้าย MS)	สรุป2026-09-01-pe-thorax
+ตำแหน่งฟังชัด	Tricuspid area = **ขอบล่างซ้าย sternum** (ICS 4-5)	สรุป2026-09-01-pe-thorax
+สาเหตุเด่น	พบน้อย มักเป็น rheumatic ร่วมกับ MS	สรุป2026-09-01-pe-thorax
+Aortic	Stenosis	สรุป2026-09-01-pe-thorax
+Aortic	Regurgitation	สรุป2026-09-01-pe-thorax
+Pulmonic	Stenosis	สรุป2026-09-01-pe-thorax
+Pulmonic	Regurgitation	สรุป2026-09-01-pe-thorax
+Tricuspid	Stenosis	สรุป2026-09-01-pe-thorax
+Tricuspid	Regurgitation	สรุป2026-09-01-pe-thorax
+Mitral	Stenosis	สรุป2026-09-01-pe-thorax
+Mitral	Regurgitation	สรุป2026-09-01-pe-thorax
+ลิ้น semilunar	stenosis=**systolic** · regurgitation=**diastolic** / ลิ้น AV: สลับกัน (stenosis=diastolic, regurgitation=systolic) [เสริม]	สรุป2026-09-01-pe-thorax
+★ Tactile fremitus	increased (Pneumonia, CA lung) vs decreased (Obstructed bronchus, Pneumothorax, Pleural effusion, Emphysema) [หน้า 14]	สรุป2026-09-01-pe-thorax
+★ แยก Adventitious sounds	Dry (Stridor, Rhonchi, Pleural friction rub) vs Moist (Rales — Fine/Medium/Coarse) พร้อมช่วงที่ได้ยินและโรคที่พบ [หน้า 18-23]	สรุป2026-09-01-pe-thorax
+จำสลับทิศทางของ Dyspnea	หายใจเข้าลำบาก = อุดกั้นทางเดินหายใจ**ส่วนบน**, หายใจออกลำบาก = พยาธิสภาพทางเดินหายใจ**ส่วนล่าง** [หน้า 10]	สรุป2026-09-01-pe-thorax
