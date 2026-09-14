@@ -92,6 +92,30 @@ Domain ที่ต้องประเมิน: Airway & Respiratory, Cardiov
 เครื่องมือ: **MAC** (Mid Arm Circumference), **TSF** (Triceps Skin Fold), **MAMC** (Mid Arm Muscle Circumference)
 ผู้ป่วยผ่าตัด **15.80%** เสี่ยงทุพโภชนาการ → ฟื้นตัวช้า
 
+### 1.9 Pre-operative assessment (การเยี่ยมก่อนผ่าตัดจากตึก/บ้าน) ★★ [สไลด์] [ไฟล์:health-assessment-2026-08-24]
+ก่อนรับผู้ป่วยเข้าห้องผ่าตัด พยาบาลควรประเมิน: Quick physical inspection assessment, Review chart (การประเมินสุขภาพ/ผลการตรวจต่างๆ), ข้อมูลจากญาติหรือผู้ดูแล, โทรศัพท์ (กรณี Ambulatory surgery), Level of consciousness, Pallor/Cyanosis/Jaundice/Skin eruptions/Edema, Wound บริเวณที่ได้รับบาดเจ็บ, Pain, NPO/Intravenous therapy, Vital signs, ฟันปลอม, Contact lens, ความสามารถในการช่วยเหลือตัวเองของผู้ป่วย [หน้า 3]
+
+### 1.10 General health assessment: 3 องค์ประกอบ ★★ [สไลด์] [ไฟล์:health-assessment-2026-08-24 หน้า 20]
+| องค์ประกอบ | รายละเอียด |
+|---|---|
+| History taking | ข้อมูลเชิงอัตนัย สร้างสัมพันธภาพผู้รับบริการ-พยาบาล เป็นแนวทางตรวจร่างกาย |
+| Physical examination | ประเมินสภาวะสุขภาพปัจจุบัน + หาความผิดปกติที่อาจกระทบการผ่าตัด |
+| Laboratory tests | **Routine:** CBC, Electrolyte levels, Renal & liver function tests, Coagulation · **Specific:** Echocardiography, CT scan, MRI, Pulmonary function test (PFT) |
+
+### 1.11 ความสำคัญของ Surgical Risk Assessment ★★ [สไลด์] [หน้า 30]
+1. **Personalized care plans** — วางแผนดูแลเฉพาะรายตามความเสี่ยง
+2. **Informed consent** — ผู้ป่วย/ญาติเข้าใจความเสี่ยงและประโยชน์อย่างชัดเจน
+3. **Minimizing complications** — ระบุและจัดการความเสี่ยงได้เร็ว
+4. **Resource allocation** — จัดสรรการดูแลที่เหมาะสมสำหรับผู้ป่วยความเสี่ยงสูง
+
+### 1.12 องค์ประกอบของ Surgical risk assessment และ Assessment of surgical procedure ★★ [สไลด์] [หน้า 31, 39]
+6 องค์ประกอบ: Patient's medical history, Physical examination, Laboratory & diagnostic tests, Risk stratification tools, **Assessment of surgical procedure**, Patient-specific factors
+**Assessment of surgical procedure** ประเมิน 3 ด้าน: Type of surgery (ความซับซ้อน/ระยะเวลา/ความเสี่ยง), Emergency vs Elective (ฉุกเฉินเสี่ยงสูงกว่า), Anesthesia risk (ความเสี่ยงตามชนิดยาระงับความรู้สึก)
+
+### 1.13 Chronic disease และผลจากการผ่าตัดครั้งก่อน ★★ [สไลด์] [หน้า 32]
+โรคเรื้อรังที่มีผลต่อความเสี่ยงผ่าตัด: HT, DM, Cardiovascular disease, CKD, Respiratory disease
+ประวัติผ่าตัดครั้งก่อน (Previous surgery) ต้องประเมิน complication ด้าน: การตอบสนองต่อยาระงับความรู้สึก (anesthesia response), การหายของแผล (wound healing), การฟื้นตัวโดยรวม (overall recovery)
+
 **ออกสอบบ่อย:**
 - ตัวเลขอัตราตาย ASA I-VI และการเติม E สำหรับ emergency
 - เกณฑ์น้ำหนักเคลื่อนย้าย: 71.4 kg (supine-supine) vs 33 kg (supine-prone)
@@ -157,6 +181,8 @@ Subjective data (สัมภาษณ์) vs Objective data (สังเกต
 | Insight | ผู้ป่วยจิตเวชมักบอกว่าตนไม่ป่วย (Poor insight) |
 | Abstract thinking | concrete (ตอบตรงตัว) vs abstract (ตีความ) |
 | Memory | Recent (≤1-2 วัน) / Remote (นาน) / Recall (~5 นาที) |
+| Concentration/สมาธิ [สไลด์] | ลบเลข 100 ทีละ 7 ต่อเนื่อง หรือ 20-3 (ทำ 3 ครั้ง) หรือสะกดคำถอยหลัง (เช่น "สะพาน"); สมาธิไม่ดีพบใน dementia, acute psychosis |
+| General knowledge & intelligence/ความรู้ทั่วไป [สไลด์] | คำถามต้องเหมาะกับระดับการศึกษา/อาชีพ/ประสบการณ์; ถามเหตุการณ์ปัจจุบัน (เช่น นายกฯคือใคร) และความรู้เกี่ยวกับโรคที่ป่วย/การปฏิบัติตัว |
 
 ### 2.7 มิติสังคม-จิตวิญญาณ ★★★
 **Self-concept:** Body image, **Self-esteem** — ถามว่า "ภูมิใจเรื่องอะไร" "เป็นภาระใครหรือเปล่า" ⚠️ **ห้ามถาม** "คุณรู้สึกตัวเองมีคุณค่าหรือไม่"
@@ -165,6 +191,32 @@ Subjective data (สัมภาษณ์) vs Objective data (สังเกต
 
 ### 2.8 แนวทางการดูแลจิตใจผู้ป่วยผ่าตัด ★★
 สร้างสัมพันธภาพ+ไว้วางใจ, เปิดโอกาสซักถาม, สัมภาษณ์นุ่มนวล, **ถ้ามีญาติอยู่ด้วยควรกลับออกมาก่อนแล้วเยี่ยมภายหลัง** (ผู้ป่วยอาจไม่ต้องการให้ครอบครัวรู้บางเรื่อง), ขออนุญาตก่อนให้การพยาบาล
+
+### 2.9 Outcome การดูแลผู้ป่วยผ่าตัด ★★ [สไลด์]
+1. ผู้ป่วยคลายวิตกกังวลและให้ความร่วมมือในการรักษา/ปฏิบัติตัวได้เหมาะสม
+2. ผู้ป่วยและญาติมีความรู้และความเชื่อมั่นในการรักษา
+3. ผู้ป่วยและญาติปฏิบัติตามคำแนะนำได้อย่างถูกต้อง
+
+### 2.10 ปัจจัยที่มีผลต่อการประเมิน และแหล่งข้อมูลภาวะจิตสังคม ★★ [สไลด์]
+**ปัจจัยที่มีผลต่อการประเมิน:** ผู้ประเมิน (ขาดทักษะในการประเมิน, มีบุคลิกภาพไม่เหมาะสม) และผู้ถูกประเมิน (ปัญหาสุขภาพ/ความเจ็บป่วย, ความเสื่อมของร่างกายตามวัย, ประสบการณ์เดิม)
+**แหล่งข้อมูล:** ผู้ป่วย, ครอบครัวและบุคคลใกล้ชิด, บันทึกการซักประวัติ-ตรวจร่างกายของแพทย์, บันทึกของบุคลากรในทีมสุขภาพ, ผลการตรวจทางห้องปฏิบัติการ, ผลการทดสอบทางจิตวิทยา, บันทึกทางการพยาบาล
+
+### 2.11 ลักษณะผู้สัมภาษณ์ที่ดี และเทคนิคการสัมภาษณ์ ★★ [สไลด์]
+**ลักษณะผู้สัมภาษณ์ที่ดี:** ให้เกียรติผู้ป่วย (ไม่วิพากษ์วิจารณ์/ตัดสินถูกผิด), สนใจและเข้าใจความรู้สึกผู้ป่วย, มีความจริงใจ (เปิดเผย เป็นธรรมชาติ ไม่เสแสร้ง), ทำให้ผู้ป่วยไว้วางใจว่าเราสามารถช่วยเขาได้
+**เทคนิคการสัมภาษณ์ (Interviewing technique):**
+- Opening interview: ทักทาย/สร้างความคุ้นเคยก่อนสัมภาษณ์จริง, แนะนำตนเองและขั้นตอน, ท่าทีผ่อนคลาย (นั่งพูดคุยระดับเดียวกับผู้ป่วย)
+- เริ่มด้วยประโยคกว้างๆและแสดง empathy, ใช้คำถามปลายเปิด, **หลีกเลี่ยงคำถามนำหรือคำถามปลายปิด**
+- ใช้คำถามเข้าใจง่ายเหมาะกับระดับความรู้ผู้ป่วย, ใช้คำสุภาพ ระมัดระวังคำพูดกระทบกระเทือนจิตใจ, น้ำเสียง/ภาษาไม่ตัดสินผู้ป่วย, ถามทีละประเด็นไม่กระโดดไปมา
+- ใส่ใจความสุขสบายของผู้ป่วย, จัดสิ่งแวดล้อมเป็นส่วนตัว/เงียบสงบ/อุณหภูมิพอดี, **ให้ความมั่นใจเรื่องการรักษาความลับ (confidentiality)**
+
+### 2.12 มิติร่างกาย: Daily activities, Genetic และพฤติกรรมผิดปกติ 4 แบบ ★★ [สไลด์]
+**Daily activities (การดำเนินชีวิตประจำวัน):** การรับประทานอาหาร, การย่อยและการขับถ่าย, การพักผ่อนนอนหลับ, กิจกรรม/การออกกำลังกาย, การสูบบุหรี่ดื่มสุรา
+**Genetic (พันธุกรรม):** ภาวะสติปัญญาบกพร่อง, การเจ็บป่วยทางกาย/จิตของสมาชิกครอบครัว, ประวัติสุขภาพ/เจ็บป่วยในอดีต/อุบัติเหตุ, ประวัติการฆ่าตัวตาย, ความพิการทางกาย
+**พฤติกรรมที่ผิดปกติ 4 แบบ:** Stereotypic behavior (พฤติกรรมซ้ำๆ เช่นโยกตัว), Bizarre behavior (พฤติกรรมแปลกประหลาด), Aggressive (ก้าวร้าว), Hostile (ท่าทีไม่เป็นมิตร ตาขวาง)
+
+### 2.13 มิติการสื่อสาร และแบบแผนความเครียด-การจัดการความเครียด ★ [สไลด์]
+**การสื่อสาร (Communication):** การพูด (speech) — น้ำเสียง, ความเร็วของการพูด, การตอบคำถาม (พูดซ้ำ/หยุดกลางประโยค), แบบแผนการพูด (อ้อมค้อม/ตรงไปตรงมา), การสบตา (eye contact), การใช้ศัพท์/ภาษาที่ไม่เหมาะสม; กิริยาท่าทาง (gesture) เช่น กระทืบเท้า ชี้หน้า กำหมัด
+**แบบแผนความเครียดและการจัดการ (Stress & coping pattern):** ประเมินสาเหตุความเครียด (ชีวิตประจำวัน หน้าที่การงาน การเปลี่ยนแปลงสำคัญในชีวิต) และความทนทานต่อความเครียด; วิธีจัดการ — **Problem-solving coping** (ใช้เหตุผล) vs **Emotional coping** (ใช้อารมณ์)
 
 **ออกสอบบ่อย:**
 - Bizarre/Over-bright/Poor grooming จับคู่กับโรคให้ถูก
@@ -225,6 +277,80 @@ Inspection (symmetry, mass, JVD, thyroid) → Palpation (trachea position, thyro
 
 ### เส้นประสาทสมองที่เกี่ยวข้องกับหัว-หน้า-คอ
 CN II (Visual acuity/light reflex/visual field), CN III (Consensual reflex, rectus/oblique ส่วนใหญ่), CN IV (Superior oblique), CN VI (Lateral rectus), CN X (การยกตัว soft palate)
+
+### 3.9 ตา (Eye): External configuration ★★ [สไลด์] [ไฟล์:2026-08-24-pe-head-face-neck หน้า 8-9]
+Eyebrow (สี, หนา/บาง, distribution, คิ้วตก), Eye (shape, symmetry), Eye lash (color, distribution, ม้วนเข้าใน/ออกนอก), Eyelids (color, edema, ptosis, lid retraction), Cornea & lens (ขุ่น/ใส, อักเสบ, แผล), Sclera (color), Conjunctiva (color), Lacrimal gland, Lacrimal duct
+
+### 3.10 หู (Ear): กายวิภาคและ Hearing pathway ★★ [สไลด์] [หน้า 18-22]
+หูแบ่งเป็น 3 ส่วน: External ear, Middle ear, Inner ear
+**Auricle (pinna):** Position, Deformity, Symmetry, Lumps, Tenderness
+**Ear canal:** Ear wax, mucosa, foreign body, discharge, eardrum
+**Hearing pathways:** Conducting phase (การสั่นของเสียง → External ear → Middle ear) vs Sensorineural phase (การสั่นของเสียง → Cochlea → Cochlear nerve); Air conduction ปกติดีกว่า Bone conduction
+
+### 3.11 จมูก (Nose): External & Internal configuration ★ [สไลด์] [หน้า 23]
+External configuration: shape, color, symmetry, lesion
+Internal configuration: nasal mucosa, nasal septum, turbinate (และ sinuses)
+
+### 3.12 ผิวหนัง (Skin): Inspection & Palpation ทั่วไป ★★ [สไลด์] [หน้า 37]
+**Inspection:** Color (Pallor, Jaundice, Cyanosis), Lesions (Primary/Secondary lesions, ความเสี่ยงการติดเชื้อ)
+**Palpation:** Temperature, Texture, Moisture, **Turgor** (ใช้ประเมินภาวะ Dehydration)
+
+### 3.13 ชนิดของรอยโรคผิวหนังแบบครบ (Type of skin lesion) ★★★ [สไลด์] [หน้า 38-52]
+**Primary skin lesions**
+| รอยโรค | ลักษณะ | ตัวอย่าง |
+|---|---|---|
+| Macule (จุด) | เปลี่ยนสีผิว ราบ <1 cm | ฝ้า, กระ (Freckles), เกลื้อน, ไฝ |
+| Patch (ผื่นราบ) | เหมือน Macule แต่ >1 cm | Café au lait spot, ด่างขาว |
+| Papule (ตุ่มนูน) | นูนแข็ง <0.5 cm หลายรูปแบบ | สิวหัวขาว/หัวดำ, ไฝ, หูด |
+| Plaque (แผ่นนูน) | ปื้นนูนหนาแบน (Papule >0.5 cm) | เรื้อนกวาง, Psoriasis, Chronic eczema |
+| Nodule (ก้อนนูน) | >0.5 cm ลึกถึงหนังกำพร้า/หนังแท้/ไขมัน | หงอนไก่, ตาปลา, Neurofibromatosis |
+| Tumor | ก้อนนูนแข็ง >2 cm | Neoplasms |
+| Vesicle (ตุ่มน้ำใสเล็ก) | นูน <0.5 cm มีน้ำใส | เริมระยะแรก, ผื่นแพ้สัมผัส |
+| Bulla (ตุ่มน้ำใสใหญ่) | >0.5 cm | Stevens-Johnson syndrome, ไฟไหม้/น้ำร้อนลวก |
+| Pustule (ตุ่มหนอง) | vesicle มีหนอง จากติดเชื้อแบคทีเรีย | Acne, folliculitis |
+| Wheal | บวมนูนชั่วคราวรูปร่างไม่แน่นอน | ลมพิษ, รอยยุงกัด |
+| Cyst | ถุงปิดมีสารครึ่งแข็ง/น้ำ ลึกใต้ผิว >1 cm | Acne, Epidermal inclusion cyst, Pilar cyst |
+
+**Secondary skin lesions**
+| รอยโรค | ลักษณะ | ตัวอย่าง |
+|---|---|---|
+| Scale (สะเก็ด) | ผิวลอกเป็นขุย | Dandruff, Psoriasis |
+| Crust (คราบ) | สะเก็ดแห้งกรังจากน้ำเหลือง/หนอง/เลือด | - |
+| Erosion | รอยถลอกตื้น เฉพาะบางส่วนของ epidermis | - |
+| Ulcer | epidermis+dermis หลุด แผลลึกถึงหนังแท้/ไขมัน | Diabetic foot ulcer |
+| Fissure | รอยแตกของผิวถึงหนังแท้ เจ็บ | เท้าแตก, มุมปากแตก |
+| Atrophy | ผิวบางลง ลอกลายผิว (ผิวย่นตื้น/บุ๋ม) | Striae |
+
+**Vascular skin lesion**
+| รอยโรค | ลักษณะ | ตัวอย่าง |
+|---|---|---|
+| Petechia | จุดเลือดออกใต้ผิว/เยื่อบุ 1-3 mm สีแดง ไม่นูน กดไม่จาง | - |
+| Purpura | เลือดออกที่ผิว 3-10 mm สีแดง/ม่วง กดไม่จาง | Atopic dermatitis, SLE, Thrombocytopenic purpura |
+| Ecchymosis | เลือดออกในผิวหนัง ใหญ่กว่า Purpura | Coagulation disorders |
+| Hematoma | ก้อนเลือดออกในเนื้อเยื่อชั้นลึก (กล้ามเนื้อ/เนื้อเยื่ออ่อน) | - |
+| Telangiectasia (Venous star) | เส้นเลือดฝอยขยายตัวผิดปกติ เห็นเป็นแขนงสีแดง | Dermatomyositis, SLE, progressive systemic sclerosis |
+
+**Miscellaneous skin lesions**
+| รอยโรค | ลักษณะ | ตัวอย่าง |
+|---|---|---|
+| Scar | fibrous tissue แทนที่ dermis ที่ถูกทำลาย | - |
+| Keloid | แผลเป็นขยายเกินขอบเขตแผลเดิม | Burn scars |
+| Lichenification | ผิวแห้ง ด้าน หนา หยาบสาก จากการเกา/ระคายเคืองเรื้อรัง | Eczema เรื้อรัง |
+
+### 3.14 เล็บ (Nails) ★★ [สไลด์] [หน้า 53-54]
+**Inspection:** Brittle nails → poor nutrition, low vit A/C, hypothyroidism; Yellow nails → DM, hypothyroidism, nail fungus (thick yellow); Nail pits → psoriasis, alopecia areata; Dark streaks → broken blood vessels, psoriasis, endocarditis; Vertical ridges → aging, iron deficiency anemia; Horizontal ridges → zinc deficiency, DM, kidney conditions; Shape & contour, Lesion/inflammation
+**Palpation:** Thickness; **Clubbing**; **Normal nail angle 160°**
+
+### 3.15 ต่อมน้ำเหลือง: 3 บริเวณและรายชื่อต่อมเฉพาะ ★★ [สไลด์] [หน้า 56-60]
+**3 Area:** Head-face-neck, Axillary (ทั้งสองแขน), Groin
+| บริเวณ | ต่อมน้ำเหลือง |
+|---|---|
+| Head | Preauricular LN, Posterior auricular LN, Tonsillar LN, Submaxillary LN, Submental LN, Occipital LN |
+| Neck | Posterior cervical chain, Superficial cervical LN, Deep cervical chain, Supraclavicular LN |
+| Axillary (4 กลุ่ม) | Central, Anterior (Pectoral), Posterior (Subscapular), Lateral |
+| Groin | Inguinal area, Superficial inguinal lymph nodes |
+
+เกณฑ์ตรวจเพิ่มเติม: **Consistency** — Soft อาจบ่งชี้การอักเสบเฉียบพลัน, Hard & Fixed อาจบ่งชี้มะเร็ง; **Warmth** (ต่อมอุ่น = อักเสบ/ติดเชื้อเฉียบพลัน)
 
 **ออกสอบบ่อย:**
 - Weber vs Rinne — คนละหลักการ (Weber เทียบ 2 หู, Rinne เทียบ AC/BC ข้างเดียวกัน) และทิศทาง lateralize สลับกันบ่อย
@@ -301,6 +427,53 @@ Systolic murmur (ระหว่าง S1-S2) vs Diastolic murmur (ระหว�
 | Pulmonic | Systolic | Diastolic (**Graham Steell**) | Congenital / Pulmonary HTN |
 | Tricuspid | Diastolic | Systolic (**Carvallo's sign** ดังขึ้นเมื่อหายใจเข้า) | RV dilation |
 
+### 4.9 Peripheral pulse palpation ★★ [สไลด์] [ไฟล์:2026-09-01-pe-thorax หน้า 32]
+ตรวจในท่านอน ดูจังหวะและความแรง เปรียบเทียบทั้งสองข้าง: Carotid, Brachial, Radial, Femoral, Popliteal, Dorsalis pedis pulse
+
+### 4.10 Smell clue (กลิ่นบอกโรค) ★★ [สไลด์] [หน้า 12]
+| กลิ่น | บอกโรค |
+|---|---|
+| กลิ่นผลไม้ | Diabetic ketoacidosis (DKA) |
+| กลิ่นคาวหรือแอมโมเนีย | Uremia |
+| กลิ่นปลาหรือถั่วเก่าๆ | Hepatic failure, Portal vein thrombosis |
+| กลิ่นเหม็น | Intestinal obstruction, Nasal sinus infection, Lung abscess, Bronchiectasis |
+| กลิ่นเครื่องเทศ | Pulmonary tuberculosis |
+
+### 4.11 เสียงหายใจปกติ (Normal breath sounds) ★★ [สไลด์] [หน้า 17]
+| เสียง | ลักษณะ | ตำแหน่งฟัง |
+|---|---|---|
+| Bronchial | ดัง กลวง เสียงสูง | เหนือ trachea, larynx |
+| Bronchovesicular | ระดับกลาง | เหนือ major bronchi |
+| Vesicular | นุ่ม เบา เสียงต่ำ คล้ายลมพัดใบไม้ | เนื้อปอดทั่วไป |
+
+### 4.12 Respiratory excursion ผิดปกติ ★★ [สไลด์] [หน้า 13]
+ปอดขยายไม่เท่ากัน → Atelectasis, Pneumothorax, Pneumonia, Pleural effusion, Thoracic trauma
+ปอดไม่ขยาย/ขยายน้อยลง → COPD, Tumor
+
+### 4.13 Wheezing subtypes และสาเหตุ Stridor เพิ่มเติม ★★ [สไลด์] [หน้า 19, 25]
+**Wheezing subtypes:** Monophonic (เสียงเดียว ได้ยินขณะหายใจเข้าหรือออก ความถี่คงที่/แปรผัน ระยะเวลานาน), Polyphonic (หลายเสียง ได้ยินขณะหายใจออก เสียงสูงขึ้นช่วงปลาย), Squawks (wheeze สั้นๆ ขณะหายใจเข้า)
+**Stridor สาเหตุเพิ่มเติม:** Severe asthma attack, Effusions, Pneumothorax, Pertussis, Croup, Epiglottitis, Aspiration (นอกจาก Upper airway narrowing/obstruction)
+
+### 4.14 Abnormal bulging/retraction ของ ICS และ CVS Inspection เพิ่มเติม ★★ [สไลด์] [หน้า 7, 28-29]
+**Thorax:** การดึงรั้ง (retraction) ของ ICS ขณะหายใจเข้า = เพิ่มแรงหายใจจากอุดกั้นทางเดินหายใจ; การโป่งนูน (bulging) ของ ICS ขณะหายใจออก = มีอากาศคั่งในปอด
+**CVS Inspection เพิ่ม:** Scars — thoracotomy (closed cardiac surgery) & sternotomy (open cardiac surgery); Abnormal pulsation (aneurysm); Shortness of breathing (SOB)
+
+### 4.15 สาเหตุเพิ่มเติมของรูปแบบการหายใจผิดปกติ ★★ [สไลด์] [หน้า 8-10]
+Tachypnea เพิ่ม: CNS lesion (pons), Aspirin poisoning
+Bradypnea เพิ่ม: Infection, CNS lesion (Cerebrum)
+Cheyne-Stokes: **Normal ในเด็กแรกเกิดและผู้สูงอายุขณะนอนหลับ**, drug overdose
+
+### 4.16 Murmur grading เต็ม 6 เกรด ★★★ [สไลด์] [หน้า 36]
+| เกรด | ลักษณะ |
+|---|---|
+| 1 | เสียงฟู่เบามาก ยากจะได้ยินในห้องเงียบ ถ้าลุกนั่งอาจไม่ได้ยิน |
+| 2 | เสียงฟู่เบา แต่ได้ยินชัด ได้ยินทุกท่า (นั่ง/นอน) |
+| 3 | เสียงฟู่ชัดเจน แต่คลำ thrill ไม่ได้ |
+| 4 | เสียงฟู่ชัดเจน **และคลำ thrill ได้** |
+| 5 | เสียงฟู่ดังมาก คลำ thrill ได้ง่าย |
+| 6 | เสียงฟู่ดังมาก สังเกตเห็น thrill ได้ |
+บันทึกความดังของ murmur เป็นเศษส่วนของ 6 เช่น 3/6
+
 **ออกสอบบ่อย:**
 - Barrel/Funnel/Pigeon chest จับคู่กับสาเหตุ
 - Tachypnea vs Hyperventilation, Bradypnea vs Hypoventilation
@@ -358,6 +531,17 @@ Stage 0 (in situ) → I (≤1 นิ้ว ไม่ลาม) → II (ลาม
 
 ### 5.8 การเตรียมตรวจช่องท้อง ★
 นอนราบ หนุนหมอน ถ่ายปัสสาวะก่อน เปิดหน้าท้องให้เห็นครบ 4Q ผู้ตรวจยืนขวามือผู้ป่วย
+
+### 5.9 ประวัติซักถามก่อนตรวจช่องท้องและอวัยวะสืบพันธุ์ ★★ [สไลด์] [ไฟล์:2026-08-31-abdomen]
+**ระบบทางเดินอาหาร:** เบื่ออาหาร, คลื่นไส้, อาเจียนเป็นเลือด, ปวดท้อง, การเปลี่ยนแปลงของ bowel sounds, ท้องผูก, ท้องเสีย, ตัวเหลือง, กลั้นอุจจาระไม่ได้
+**ระบบทางเดินปัสสาวะ:** ปวดท้องเหนือหัวเหน่า, ถ่ายปัสสาวะลำบาก, กลั้นปัสสาวะไม่ได้, ถ่ายปัสสาวะเป็นเลือด, ปวดไต/บั้นเอว
+**อวัยวะสืบพันธุ์หญิง:** การมีประจำเดือน, สิ่งขับหลั่งอื่นๆ, อาการคัน, อาการอักเสบ, การมีเลือดออกทางช่องคลอด
+
+### 5.10 Bowel sound ความถี่เชิงเวลา ★ [สไลด์]
+Bowel sound เกิดขึ้นตั้งแต่ every other second ถึง every 12 seconds (รายละเอียดเสริมจากเกณฑ์ 5-35 ครั้ง/นาที)
+
+### 5.11 Benign breast masses ★★ [สไลด์] [ไฟล์:2026-08-31-breast]
+Breast cysts, Fibrocystic breast changes, Fibroadenoma, Ductal papilloma
 
 **ออกสอบบ่อย:**
 - ลำดับตรวจช่องท้อง Inspection→**Auscultation**→Percussion→Palpation (สลับกับระบบอื่น)
@@ -453,6 +637,37 @@ TMJ, Cervical spine, Shoulder (เชื่อมกับ CN 11), Elbow, Wrist&
 ### 6.12 Convergence test ★★
 CN 3,4,6 ร่วมกัน — ปรับตาดูวัตถุห่างจมูกได้ปกติ 5-8 ซม.
 
+### 6.13 กายวิภาคสมอง 4 กลีบ (Cerebral lobes) ★★★ [สไลด์] [ไฟล์:2026-08-31-nervous-system]
+| กลีบสมอง | หน้าที่หลัก |
+|---|---|
+| Frontal lobe | ความนึกคิด/ตัดสินใจ/แก้ปัญหา/ควบคุมอารมณ์; **Motor cortex** (ควบคุมการเคลื่อนไหวจำเพาะส่วน); **Broca's area** (ส่วนใหญ่สมองซีกซ้าย — สร้างคำพูด/เปล่งเสียงพูด) |
+| Parietal lobe | รับความรู้สึกทั่วไป ตีความ ส่งข้อมูลไปควบคุม motor cortex; **Wernicke's area** (วิเคราะห์/เข้าใจคำพูด-ภาษา) |
+| Temporal lobe | **Auditory cortex** (รับรู้เสียงแต่ละความถี่); การเรียนรู้/ความจำเกี่ยวกับคำพูด-ภาษา |
+| Occipital lobe | **Visual cortex** (รับรู้/ตีความการมองเห็น) ส่งข้อมูลผ่าน CN III เพื่อปรับโฟกัสเลนส์ตา/รูม่านตา |
+
+### 6.14 กายวิภาคไขสันหลัง (Spinal cord) ★★ [สไลด์]
+ไขสันหลังอยู่ในกระดูกสันหลัง ต่อจาก medulla ถึงเอวข้อที่ 1-2 แบ่งเป็น 5 ส่วน: Cervical (ข้อ 1-8), Thoracic (ข้อ 1-12), Lumbar (ข้อ 1-5), Sacral (ข้อ 1-5); เนื้อไขสันหลังสิ้นสุดที่เอวข้อ 1-2 จากนั้นเป็นมัดเส้นประสาทคล้ายหางม้า (**Cauda equina**)
+
+### 6.15 การซักประวัติระบบประสาท ★★★ [สไลด์]
+ปวดศีรษะ (ตำแหน่ง/ความรุนแรง/ระยะเวลา/อาการร่วม), มึนศีรษะ/เวียนศีรษะแบบบ้านหมุน (vertigo), อ่อนแรง (weakness — ทั้งตัว/กล้ามเนื้อต้นแขนขา/ปลายมือเท้า), รับสัมผัสผิดปกติ (paresthesia), หมดสติ/เป็นลม (LOC/syncope), ลมชัก (seizures), มือสั่น (tremor)/involuntary movement, ความผิดปกติของ orientation/mood/attention/speech/memory/judgment
+**ประวัติในอดีต:** stroke, บาดเจ็บศีรษะ/ไขสันหลัง, เยื่อหุ้มสมองอักเสบ (meningitis)
+**เด็ก:** ปัญหาสุขภาพมารดาระหว่างตั้งครรภ์, ประวัติการเกิด, พัฒนาการเทียบกับเด็กวัยเดียวกัน
+**ผู้สูงอายุ:** ประวัติหกล้ม, ADL, การแยกตัวจากสังคม (สูญเสียการได้ยิน/มองเห็น), กลั้นอุจจาระ/ปัสสาวะไม่ได้, tremor (พบได้บ่อย)
+
+### 6.16 การซักประวัติระบบกล้ามเนื้อและกระดูก (MSK) ★★ [สไลด์] [ไฟล์:2026-08-31-musculoskeletal-system]
+**ข้อ:** ปวดเฉียบพลัน/เรื้อรัง, บวมแดงร้อน มีไข้, ข้อติดแข็ง จำกัดการเคลื่อนไหว, ผื่น (ผื่นรูปผีเสื้อที่แก้ม=SLE, ผื่นสะเก็ดเงิน=psoriasis)
+**กล้ามเนื้อ:** ปวด ตะคริว ชา รับสัมผัสผิดปกติ อ่อนแรง อัมพาต สั่น เกร็ง กระตุก ลีบ จำกัดการเคลื่อนไหว
+**กระดูก:** เดินลำบาก ปวดเวลาเคลื่อนไหว crepitus กระดูกผิดรูป
+การได้รับบาดเจ็บ, ความสามารถทำ ADL; **เด็ก:** คลอดลำบาก; **ผู้สูงอายุ:** ประวัติหกล้ม/ใช้เครื่องช่วยเดิน (ไม้เท้า, walker)
+
+### 6.17 Abdominal reflex และเกณฑ์ reflex ผิดปกติ ★★ [สไลด์]
+**Abdominal reflex** (superficial reflex อีกชนิด): ขีดบนหน้าท้องเหนือ/ใต้สะดือทั้งสองซีก ปกติสะดือจะเคลื่อนมาทางด้านที่ถูกกระตุ้น
+**Reflex จะแสดงถึงความผิดปกติเมื่อ:** (1) ไม่มี reflex ในช่วงอายุที่ควรจะต้องมี (2) มี reflex นานกว่าช่วงอายุปกติ (3) reflex ของร่างกายสองซีกไม่เท่ากัน (4) reflex สัมพันธ์กับท่าทางผิดปกติ หรือเกิดกล้ามเนื้อกระตุก
+
+### 6.18 Gait assessment และ Point-to-point accuracy test ★★ [สไลด์]
+**Gait:** สังเกตท่าทาง/การทรงตัว/การแกว่งแขน — เดินธรรมดา, เดินต่อเท้า, เดินส้นเท้า (dorsiflexion), เดินเขย่งปลายเท้า (plantar flexion), กระโดดขาเดียว
+**Point-to-point accuracy of movement:** ทดสอบความแม่นยำจากจุดหนึ่งไปอีกจุด (ถ้าผิดปกติ นิ้วจะสั่นเมื่อใกล้เป้าหมาย จิ้มไม่ตรงที่); **Finger-to-nose-to-finger test** (ให้ผู้ป่วยแตะจมูกตนเองสลับกับปลายนิ้วผู้ตรวจที่เปลี่ยนตำแหน่งหลายจุด — แยกจาก **Finger-to-nose test** ธรรมดาที่หลับตากางแขนแตะปลายจมูกเอง)
+
 **ออกสอบบ่อย:**
 - CN 3/4/6 ตรวจร่วมกันด้วย EOM รูปตัว H, CN 9/10 ตรวจร่วมกัน (ลิ้นไก่+gag reflex)
 - CN 5 มี 2 หน้าที่ (motor+sensory 3 แขนง), CN 11 เชื่อม sternocleidomastoid+trapezius
@@ -508,6 +723,58 @@ CN 3,4,6 ร่วมกัน — ปรับตาดูวัตถุห่
 **Post-op/PACU:** **Modified Aldrete Score**/PADSS ใช้ตัดสินใจย้าย/จำหน่าย, Pain (NRS/VAS), Responsible Adult
 **SBAR:** Situation-Background-Assessment-Recommendation — ใช้ hand-off ระหว่างหน่วยงาน
 Focus charting ของศิริราชเริ่มใช้ พ.ศ. **2551**
+
+### 7.5 วัตถุประสงค์การส่งตรวจทางห้องปฏิบัติการ ★★ [สไลด์] [ไฟล์:2026-09-01-preop-lab-documentation-pornsinee]
+ประเมินภาวะ/โรคที่มีอยู่แล้ว หรือค้นหาโรคที่ยังไม่แสดงอาการแต่มีปัจจัยเสี่ยง, ประเมินความพร้อมก่อนให้ยาระงับความรู้สึก, ให้ข้อมูลเพิ่มเติมที่ไม่ได้จากการซักประวัติ/ตรวจร่างกาย, ป้องกันกรณีเกิดการฟ้องร้องทางกฎหมาย
+
+### 7.6 ตัวอย่างหัตถการจำแนกตาม Surgical risk ★★★ [สไลด์]
+| ระดับ | เกณฑ์เสียเลือด | ตัวอย่างหัตถการ |
+|---|---|---|
+| Low | <500 mL | Breast/skin biopsy, Superficial surgery, Hysteroscopy, Cystoscopy, Fiberoptic bronchoscopy, Dental/Eye/Ear, Minor gyn/ortho surgery, Endoscopy/Colonoscopy |
+| Intermediate | 500-1500 mL | Diagnostic laparoscopy, Inguinal/umbilical hernia repair, Benign thyroid excision, Tonsillectomy±adenoidectomy, Cholecystectomy, Hysterectomy, Myomectomy, Hip/knee replacement, Spine surgery |
+| High | >1500 mL | Major ortho-spinal reconstruction, Major GI tract reconstruction, Aortic/major vascular surgery, Pulmonary/liver transplant, Radical cystectomy, Head & neck cancer surgery with flap reconstruction |
+
+### 7.7 ตารางส่งตรวจ lab ตามโรคร่วมในผู้ป่วยเด็ก ★★★ [สไลด์]
+| โรคร่วม (Associated condition) | Lab/Investigation ที่แนะนำ |
+|---|---|
+| Congenital cardiac disease | CBC, CXR, ±EKG, ±Echocardiogram |
+| Pulmonary TB | CXR |
+| Complex lung disease | CBC, CXR |
+| OSA รุนแรง | CXR, ±EKG, ±Echocardiogram |
+| Cholestatic liver disease | CBC, AST, ALT, Total/Direct bilirubin, Albumin, PT-INR |
+| Liver disease อื่นๆ | CBC, AST, ALT, Albumin, ±PT-INR |
+| Renal disease | CBC, BUN, Creatinine, Electrolytes (Na/K/Cl/HCO3) |
+| Thalassemia | CBC |
+| Bleeding disorder | CBC, PT, APTT |
+| DM | BS, HbA1C, BUN, Creatinine, Electrolytes |
+| Hypothyroid | TSH |
+| Obesity | ALT (+ BMI Z-score ตามเพศ/อายุ) |
+| Morbid obesity | CBC, CXR, BS, ALT, ±EKG, ±Echocardiogram |
+| เสี่ยงเสียเลือดมาก (>10%BV หรือ >7 mL/kg) | CBC, ±PT, ±APTT (ไม่แนะนำ routine coagulation test) |
+| สงสัย Mediastinal mass | CXR |
+| สงสัยตั้งครรภ์ | Urine pregnancy test (UPT) |
+| Malnutrition | Albumin |
+| ยา Anticonvulsants | ±ALT |
+| ยา Diuretics | BUN, Creatinine, Electrolytes |
+| ยา Digoxin | Electrolytes |
+| ยา Anticoagulants | CBC, PT-INR, APTT ratio |
+
+### 7.8 Footnote การส่งตรวจเพิ่มเติมตามเงื่อนไข ★★ [สไลด์]
+CXR ถ้าอยู่ใน endemic area ของ TB; FBS ถ้าไม่เคยตรวจภายใน 1 ปี; Liver function (ALT, ALP) ถ้าผ่าตัดกระทบตับและไม่สงสัยตับแข็ง/โรคตับเดิม; Albumin ถ้าสงสัย malnutrition หรือผ่าตัดทางเดินอาหาร; PT/APTT ถ้ามีประวัติเลือดออกผิดปกติ; TSH ถ้าสงสัย hypothyroid; UPT ถ้าหญิงวัยเจริญพันธุ์ขาดประจำเดือน
+**กรณีมีหลายภาวะร่วมตั้งแต่ 2 สภาวะขึ้นไป → ส่งตรวจตามผลรวมทั้งหมด**
+
+### 7.9 ความสำคัญของการบันทึก และแบบบันทึกเฉพาะทาง ★★ [สไลด์]
+**ความสำคัญของการบันทึก:** ด้านการพยาบาล (ประเมินครอบคลุมปัจจัยเสี่ยงตั้งแต่แรกรับ, เห็นการเปลี่ยนแปลงตั้งแต่แรกรับจนจำหน่าย), ด้านกฎหมาย (หลักฐานกรณีข้อพิพาท), ด้านการสื่อสาร (ระหว่างทีมสุขภาพเพื่อวางแผน/ตัดสินใจ), ด้านคุณภาพ (ทบทวนคุณภาพการดูแล/พัฒนาแนวปฏิบัติ, QA การพยาบาล), ควบคุม/ตรวจสอบค่าใช้จ่ายในการรักษาพยาบาล, ค้นคว้าวิจัยทางคลินิก
+**แบบบันทึกเฉพาะทาง (ส่วนใหญ่เป็น Checklist):** Perioperative nursing record, Perioperative obstetric neonatal nursing record, Catheterization laboratory nursing record, Investigation procedure nursing assessment record, Ambulance record form, Hemodialysis nursing assessment/intervention form, Chemotherapy/blood transfusion nursing record
+
+### 7.10 Pre-op checklist และ Intra-op documentation เพิ่มเติม ★★ [สไลด์]
+**Pre-op checklist เพิ่ม:** Informed consent (Surgical consent, Anesthesia consent) + การให้ความรู้ผู้ป่วยเรื่องขั้นตอนผ่าตัด/ภาวะแทรกซ้อนสำคัญ; Site marking (Right Patient, Right Procedure, Right Site); การเตรียมผิวหนัง (Site prep), การถอดเครื่องประดับ/ฟันปลอม/คอนแทคเลนส์; การให้ยา Pre-medication; เอกสารครบถ้วน (Consent, Lab, EKG/CXR); NPO status, การสวนปัสสาวะ (ถ้ามี); Hand-off ด้วย SBAR/ISBAR
+**Intra-op documentation เพิ่ม:** วิธี/เทคนิคการระงับความรู้สึก, การเฝ้าติดตามสภาวะสรีรวิทยาต่อเนื่องระหว่างผ่าตัด, การจัดท่าผ่าตัด (ชนิดท่า + อุปกรณ์ป้องกันแผลกดทับ/เส้นประสาทบาดเจ็บ), การวินิจฉัยโรคหลังผ่าตัด, ชื่อศัลยแพทย์และผู้ช่วย, ชื่อหัตถการ, สิ่งส่งตรวจทางศัลยกรรม, ปริมาณเลือดที่เสีย, ภาวะแทรกซ้อน (หรือไม่มี), วันที่/เวลา/ลายมือชื่อแพทย์ผู้รับผิดชอบ
+
+### 7.11 Post-op Discharge documentation ★★ [สไลด์]
+**Discharge checklist:** เกณฑ์การจำหน่าย (PADSS Score/Aldrete Score, Pain control, No bleeding, Able to void)
+**Discharge information:** ภาวะแทรกซ้อนต่อเนื่องเมื่อผู้ป่วยกลับไปหอผู้ป่วย, คำแนะนำก่อนจำหน่าย (การดูแลแผล, สัญญาณอันตราย, ข้อจำกัดกิจกรรม), การมาตรวจตามนัด (ODS), หมายเลขโทรศัพท์ฉุกเฉิน (ODS)
+**Responsible Adult:** บันทึกชื่อ/ลายเซ็นของผู้ดูแลที่มารับกลับบ้าน (ODS)
 
 **ออกสอบบ่อย:**
 - ค่าวิกฤตแต่ละตัว (Hb, Platelet, INR, K+, Cr, FBS) ต้องจำคู่ตัวเลข-หน่วยให้แม่น
