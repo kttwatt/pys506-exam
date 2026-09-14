@@ -10,7 +10,7 @@ h1{font-size:1.15rem;margin:4px 0 2px}.sub{color:var(--mut);font-size:.8rem;marg
 #card .tag{position:absolute;top:14px;left:18px;font-size:.7rem;color:var(--acc);opacity:.85}
 #card .side{position:absolute;top:14px;right:18px;font-size:.68rem;color:var(--mut)}
 #front,#back{font-size:1.02rem;line-height:1.6;text-align:center;width:100%}
-#back{color:#cfe7ff}b{color:var(--grn)}
+#back{color:#cfe7ff}b{color:var(--grn)}.hint{position:absolute;bottom:12px;left:0;right:0;text-align:center;color:var(--mut);font-size:.72rem;letter-spacing:.02em}
 #controls{display:flex;gap:10px;margin:18px 0 8px;flex-wrap:wrap;justify-content:center}
 button{background:#1e2836;border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:9px 18px;font-size:.9rem;cursor:pointer}
 button:hover{border-color:var(--acc)}#prog{color:var(--mut);font-size:.85rem}.kbd{color:var(--mut);font-size:.7rem;margin-top:6px}
@@ -18,7 +18,7 @@ button:hover{border-color:var(--acc)}#prog{color:var(--mut);font-size:.85rem}.kb
 <h1>🩺 พยศ 506 — Flashcard Q&amp;A (ถาม-ตอบ-อธิบาย)</h1>
 <div class="sub">เลือกหัวข้อเพื่อทบทวนเฉพาะเรื่อง หรือ "ทั้งหมด" · คลิกการ์ดเพื่อพลิกดูคำตอบ</div>
 <div id="filters"></div>
-<div id="card"><span class="tag" id="cradtag"></span><span class="side" id="cside">หน้า</span><div id="front"></div><div id="back" style="display:none"></div></div>
+<div id="card"><span class="tag" id="cradtag"></span><span class="side" id="cside">หน้า</span><div id="front"></div><div id="back" style="display:none"></div><div class="hint" id="hint">👆 พลิกการ์ด</div></div>
 <div id="controls"><button id="prev">← ก่อนหน้า</button><button id="flip">พลิกการ์ด</button><button id="next">ถัดไป →</button><button id="shuf">🔀 สับการ์ด</button><button id="rord">↺ เรียงเดิม</button></div>
 <div id="prog">—</div>
 <div class="kbd">ลูกศร ←/→ = ย้ายการ์ด · Space/Enter = พลิก</div>
@@ -44,12 +44,13 @@ function render(){{
   byTag('cside').textContent = 'หน้า';
   byTag('back').style.display='none';
   byTag('front').style.display='';
+  byTag('hint').style.display='';
   byTag('prog').textContent = 'การ์ด '+(pos+1)+'/'+deck.length+' · '+c.t;
 }}
 function md(t){{return t.replace(/\*\*(.+?)\*\*/g,'<b>'+'$1'+'</b>').replace(/\n/g,'<br>');}}
 function flip(){{const fr=byTag('front'),bo=byTag('back');
-  if(bo.style.display==='none'){{fr.style.display='none';bo.style.display='';byTag('cside').textContent='หลัง';}}
-  else{{bo.style.display='none';fr.style.display='';byTag('cside').textContent='หน้า';}}
+  if(bo.style.display==='none'){{fr.style.display='none';bo.style.display='';byTag('cside').textContent='หลัง';byTag('hint').style.display='none';}}
+  else{{bo.style.display='none';fr.style.display='';byTag('cside').textContent='หน้า';byTag('hint').style.display='';}}
 }}
 const fb=byTag('filters');
 [['ทั้งหมด','all'],...Object.keys(META).map(t=>[t,t])].forEach(([label,val])=>{{const b=document.createElement('button');b.className='fbtn';b.dataset.v=val;b.textContent=label;b.onclick=()=>select(val);fb.appendChild(b);}});
