@@ -30,7 +30,8 @@
 |---|---|
 | 🌐 [pys506-exam-all-topics.html](pys506-exam-all-topics.html) | สรุปเนื้อหาเดียวกัน ในรูปแบบหน้าเว็บธีมเข้ม อ่านง่ายบนมือถือ/คอม |
 | 🎴 [pys506-exam-all-topics-flash.csv](pys506-exam-all-topics-flash.csv) | flashcard แบบ tab-separated นำเข้า Anki ได้โดยตรง |
-| 🃏 [pys506-flashcards.html](pys506-flashcards.html) | แอป flashcard เล่นได้บนเว็บ 206 ใบ คลิกพลิกการ์ด สับสำรับ กดปุ่มถัดไป |
+| 🃏 [pys506-flashcards.html](pys506-flashcards.html) | แอป flashcard ถาม-ตอบ-อธิบาย เล่นบนเว็บ 183 ใบ คลิกพลิกการ์ด · **เลือกทำเฉพาะหัวข้อ 1-7 หรือทั้งหมด** |
+| 🎴 [pys506-qa-all.csv](pys506-qa-all.csv) | flashcard Q&A 183 ใบ tab-separated นำเข้า Anki ได้ (tag = topic1-7 กรองตามหัวข้อได้) |
 
 ## สรุปแยกรายหัวข้อ (topics/)
 
