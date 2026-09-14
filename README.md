@@ -29,17 +29,12 @@
 | ไฟล์ | คำอธิบาย |
 |---|---|
 | 🌐 [pys506-exam-all-topics.html](pys506-exam-all-topics.html) | สรุปเนื้อหาเดียวกัน ในรูปแบบหน้าเว็บธีมเข้ม อ่านง่ายบนมือถือ/คอม |
-| 🧠 [pys506-exam-all-topics.mmd](pys506-exam-all-topics.mmd) | แผนผังความคิด (Mermaid mindmap) สรุปโครงสร้างเนื้อหาทั้งหมด |
 | 🎴 [pys506-exam-all-topics-flash.csv](pys506-exam-all-topics-flash.csv) | flashcard แบบ tab-separated นำเข้า Anki ได้โดยตรง |
 | 🃏 [pys506-flashcards.html](pys506-flashcards.html) | แอป flashcard เล่นได้บนเว็บ 127 ใบ คลิกพลิกการ์ด สับสำรับ กดปุ่มถัดไป |
 
-## สรุปรวมวิชา (เวอร์ชันก่อนหน้า + APTM stenosis/regurgitation)
 
 | ไฟล์ | คำอธิบาย |
 |---|---|
-| 🌐 [รวมวิชาการประเมินภาวะสุขภาพ.html](รวมวิชาการประเมินภาวะสุขภาพ.html) | เวอร์ชันหน้าเว็บของสรุปรวมวิชาข้างต้น |
-| 🧠 [รวมวิชาการประเมินภาวะสุขภาพ.mmd](รวมวิชาการประเมินภาวะสุขภาพ.mmd) | แผนผังความคิด (Mermaid mindmap) ของสรุปรวมวิชา |
-| 🎴 [รวมวิชาการประเมินภาวะสุขภาพ-flash.csv](รวมวิชาการประเมินภาวะสุขภาพ-flash.csv) | flashcard แบบ tab-separated นำเข้า Anki ได้ |
 
 ## สรุปแยกรายหัวข้อ (topics/)
 
@@ -48,7 +43,6 @@
 | ไฟล์ | คำอธิบาย |
 |---|---|
 | 🌐 [topics/2026-09-12-pe-breast-abdomen-genitalia.html](topics/2026-09-12-pe-breast-abdomen-genitalia.html) | เวอร์ชันหน้าเว็บ |
-| 🧠 [topics/2026-09-12-pe-breast-abdomen-genitalia.mmd](topics/2026-09-12-pe-breast-abdomen-genitalia.mmd) | แผนผังความคิด |
 | 🎴 [topics/2026-09-12-pe-breast-abdomen-genitalia-flash.csv](topics/2026-09-12-pe-breast-abdomen-genitalia-flash.csv) | flashcard CSV (Anki) |
 
 ### หัวข้อ 6 — PE Nervous System and Musculoskeletal System (12 ข้อ)
@@ -56,7 +50,6 @@
 | ไฟล์ | คำอธิบาย |
 |---|---|
 | 🌐 [topics/2026-09-12-pe-neuro-msk.html](topics/2026-09-12-pe-neuro-msk.html) | เวอร์ชันหน้าเว็บ |
-| 🧠 [topics/2026-09-12-pe-neuro-msk.mmd](topics/2026-09-12-pe-neuro-msk.mmd) | แผนผังความคิด |
 | 🎴 [topics/2026-09-12-pe-neuro-msk-flash.csv](topics/2026-09-12-pe-neuro-msk-flash.csv) | flashcard CSV (Anki) |
 
 ## หมายเหตุ
