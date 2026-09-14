@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PYS506 Flashcards</title>
+<style>
+  :root{
+    --bg:#0f1419;
+    --bg2:#161d26;
+    --card:#1a2230;
+    --card-back:#152a3d;
+    --accent:#4aa3ff;
+    --accent-dim:#2d6bb0;
+    --text:#e8edf3;
+    --text-dim:#8ea0b5;
+    --border:#26313f;
+  }
+  *{box-sizing:border-box;}
+  html,body{
+    margin:0;padding:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Segoe UI","Sarabun","Noto Sans Thai",Tahoma,Arial,sans-serif;
+    min-height:100vh;
+  }
+  body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    padding:24px 16px;
+  }
+  .wrap{
+    width:100%;
+    max-width:720px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+  }
+  h1{
+    font-size:1.3rem;
+    font-weight:600;
+    color:var(--accent);
+    margin:0;
+    letter-spacing:.3px;
+    text-align:center;
+  }
+  .progress{
+    color:var(--text-dim);
+    font-size:.95rem;
+    letter-spacing:.2px;
+  }
+  .progress-bar{
+    width:100%;
+    max-width:520px;
+    height:6px;
+    background:var(--bg2);
+    border-radius:99px;
+    overflow:hidden;
+    border:1px solid var(--border);
+  }
+  .progress-bar-fill{
+    height:100%;
+    background:linear-gradient(90deg,var(--accent-dim),var(--accent));
+    border-radius:99px;
+    transition:width .25s ease;
+  }
+  .card-stage{
+    width:100%;
+    max-width:520px;
+    perspective:1400px;
+  }
+  .card{
+    position:relative;
+    width:100%;
+    min-height:280px;
+    cursor:pointer;
+    transform-style:preserve-3d;
+    transition:transform .5s cubic-bezier(.4,.2,.2,1);
+    user-select:none;
+  }
+  .card.flipped{
+    transform:rotateY(180deg);
+  }
+  .card-face{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    min-height:280px;
+    backface-visibility:hidden;
+    border-radius:18px;
+    border:1px solid var(--border);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:32px 28px;
+    text-align:center;
+    box-shadow:0 8px 32px rgba(0,0,0,.35);
+  }
+  .card-face .label{
+    position:absolute;
+    top:16px;
+    left:20px;
+    font-size:.72rem;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:var(--text-dim);
+    font-weight:600;
+  }
+  .card-face .content{
+    font-size:1.25rem;
+    line-height:1.6;
+    word-break:break-word;
+  }
+  .card-face.front{
+    background:linear-gradient(160deg,var(--card),#1c2536);
+  }
+  .card-face.front .content{
+    color:var(--text);
+    font-weight:500;
+  }
+  .card-face.back{
+    background:linear-gradient(160deg,var(--card-back),#12283a);
+    transform:rotateY(180deg);
+    border-color:var(--accent-dim);
+  }
+  .card-face.back .content{
+    color:var(--accent);
+    font-weight:400;
+  }
+  .card-face .content strong{
+    color:var(--accent);
+    font-weight:700;
+  }
+  .card-face.back .content strong{
+    color:#8fc7ff;
+  }
+  .hint{
+    position:absolute;
+    bottom:14px;
+    left:0;right:0;
+    text-align:center;
+    font-size:.72rem;
+    color:var(--text-dim);
+    opacity:.7;
+  }
+  .controls{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    width:100%;
+    max-width:520px;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  button{
+    font-family:inherit;
+    font-size:.95rem;
+    font-weight:600;
+    color:var(--text);
+    background:var(--bg2);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:12px 20px;
+    cursor:pointer;
+    transition:background .15s ease, border-color .15s ease, transform .1s ease;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  button:hover{
+    background:#1e2836;
+    border-color:var(--accent-dim);
+  }
+  button:active{
+    transform:scale(.96);
+  }
+  button.primary{
+    background:var(--accent-dim);
+    border-color:var(--accent);
+    color:#fff;
+  }
+  button.primary:hover{
+    background:var(--accent);
+  }
+  button.icon-only{
+    padding:12px 16px;
+  }
+  .shuffle-btn{
+    background:var(--bg2);
+  }
+  .shuffle-btn.active{
+    background:var(--accent-dim);
+    border-color:var(--accent);
+    color:#fff;
+  }
+  .footer-note{
+    color:var(--text-dim);
+    font-size:.8rem;
+    text-align:center;
+    opacity:.65;
+    margin-top:6px;
+  }
+  @media (max-width:480px){
+    .card-face .content{font-size:1.05rem;}
+    .card-face{padding:24px 18px;min-height:240px;}
+    .card{min-height:240px;}
+    h1{font-size:1.05rem;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>PYS506 – Flashcards ทบทวนก่อนสอบ</h1>
+  <div class="progress" id="progress">การ์ด 1/127</div>
+  <div class="progress-bar"><div class="progress-bar-fill" id="progressFill"></div></div>
+
+  <div class="card-stage">
+    <div class="card" id="card">
+      <div class="card-face front">
+        <span class="label">หน้า</span>
+        <div class="content" id="frontContent"></div>
+        <span class="hint">คลิกเพื่อพลิกดูคำตอบ</span>
+      </div>
+      <div class="card-face back">
+        <span class="label">หลัง</span>
+        <div class="content" id="backContent"></div>
+        <span class="hint">คลิกเพื่อดูคำถามอีกครั้ง</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="prevBtn">&larr; ก่อนหน้า</button>
+    <button id="flipBtn" class="primary">พลิกการ์ด</button>
+    <button id="nextBtn">ถัดไป &rarr;</button>
+  </div>
+  <div class="controls">
+    <button id="shuffleBtn" class="shuffle-btn">🔀 สับการ์ด</button>
+    <button id="resetBtn">↺ เรียงลำดับเดิม</button>
+  </div>
+
+  <div class="footer-note">ลูกศรซ้าย/ขวา = เลื่อนการ์ด · Space/Enter = พลิกการ์ด</div>
+</div>
+
+<script>
+const CARDS = [
+{f:"1. แนวคิดและหลักการประเมินภาวะสุขภาพ", b:"8"},
+{f:"2. การประเมินภาวะจิตใจ อารมณ์ สังคมและจิตวิญญาณในผู้ป่วยผ่าตัด", b:"12"},
+{f:"3. PE Head, Face, Neck, Skin and Lymphatic System", b:"8"},
+{f:"4. PE Thorax lung and Cardiovascular system", b:"8"},
+{f:"5. PE เต้านม ช่องท้อง ระบบอวัยวะสืบพันธุ์ภายนอกและทวารหนัก", b:"8"},
+{f:"6. PE Nervous System and Musculoskeletal System", b:"12"},
+{f:"7. การตรวจทางห้องปฏิบัติการและการบันทึก", b:"4"},
+{f:"**รวม**", b:"**60**"},
+{f:"Initial Comprehensive", b:"ประเมินครอบคลุมทุกระบบตอนแรกเข้า รพ."},
+{f:"Ongoing/Partial", b:"ประเมินติดตามปัญหาที่พบแล้ว"},
+{f:"Focused/Problem-Oriented", b:"ประเมินเฉพาะปัญหา"},
+{f:"Emergency", b:"ใช้หลัก **ABCD** เมื่อคุกคามชีวิต"},
+{f:"**COLDSPA**", b:"Present illness"},
+{f:"**SAMPLE**", b:"Past history"},
+{f:"**BALD CHASM**", b:"Family history"},
+{f:"**ABCD**", b:"Emergency assessment"},
+{f:"Malignant Hyperthermia (จากยาสลบในอดีต)", b:"กล้ามเนื้อเกร็งแข็ง หายใจเร็วหอบเหนื่อย ไข้สูงฉับพลัน ปัสสาวะสีเข้ม เหงื่อออกมาก Tachycardia Severe acidosis PONV รุนแรง"},
+{f:"เด็ก", b:"อายุ >3 ปี, ผ่าตัด >30 นาที, ประวัติ PONV/เมารถ(ตน/ครอบครัว), ผ่าตัดตาเข"},
+{f:"ผู้ใหญ่", b:"Female, Hx.PONV/เมารถเมาเรือ, Non-smoking, Volatile anesthetics, Opioids, Laparoscopic surgery"},
+{f:"Supine→Supine", b:"< **71.4 kg**"},
+{f:"Supine→Supine", b:"> 71.4 kg"},
+{f:"Supine→Prone", b:"< **33 kg**"},
+{f:"Supine→Prone", b:"> 33 kg"},
+{f:"1", b:"สุขภาพแข็งแรงดี"},
+{f:"2", b:"พยาธิสภาพเล็กน้อย (สูงอายุ, HT คุมได้)"},
+{f:"3", b:"พยาธิสภาพรุนแรง เป็นอุปสรรคชีวิต"},
+{f:"4", b:"พยาธิสภาพรุนแรงมาก คุมไม่ได้ อันตรายต่อชีวิต"},
+{f:"5", b:"มีชีวิตอยู่ได้ ≤24 ชม."},
+{f:"6", b:"สมองตาย บริจาคอวัยวะ"},
+{f:"เกณฑ์น้ำหนักเคลื่อนย้าย", b:"71.4 kg (supine-supine) vs 33 kg (supine-prone)"},
+{f:"Mnemonics", b:"COLDSPA, SAMPLE, BALD CHASM, ABCD ต้องแยกใช้ให้ถูกบริบท"},
+{f:"ใช้ยาระงับความรู้สึกเพิ่ม ฟื้นตัวช้า", b:"วิตกกังวลระดับสูง"},
+{f:"หัวใจ/หายใจผิดปกติ", b:"หลั่ง **Catecholamine + Corticosteroid** มากขึ้น"},
+{f:"แผลหายช้า อักเสบ", b:"**Glucocorticoids** หลั่งมากกว่าปกติ"},
+{f:"BP สูงขณะ/หลังผ่าตัด", b:"วิตกกังวล; ผู้ป่วยผ่าตัด 43% มี HT, 24.6% เลื่อนผ่าตัดเพื่อคุม BP"},
+{f:"**ข้อมูลข่าวสาร (Information)**", b:"อาการ/วิธีผ่าตัด, ช่องทางติดต่อทีม, คำอธิบายเข้าใจง่ายไม่ใช้ศัพท์แพทย์"},
+{f:"**อารมณ์ (Emotional)**", b:"สนับสนุนอารมณ์ มีคนปลอบโยน/ให้กำลังใจ"},
+{f:"**จิตวิญญาณ (Spiritual)**", b:"ความหวังหายจากโรค กิจกรรมศาสนา/สิ่งยึดเหนี่ยวจิตใจ"},
+{f:"ปัญหาจิตใจที่พบบ่อย: วิตกกังวล กลัว (ผ่าตัดไม่สำเร็จ/ตาย/พิการ/เจ็บ/ไม่ฟื้น) ทุกข์ทรมานจากแผล; ปัญหาจิตสังคมทั่วไป", b:"Anxiety, Fear, Anger, Stress, Hopelessness, Loneliness, Low self-esteem, Altered body image"},
+{f:"มิติอารมณ์: Mood (พื้นฐานขณะไม่มีสิ่งเร้า) vs Affect (แสดงออกเมื่อถูกกระตุ้น", b:"blunted/restricted/inappropriate)"},
+{f:"Thought", b:"content→**Delusion** (grandeur/persecutory/jealousy/idea of reference); form→loosening of association/flight of idea/blocking/circumstantial/neologism"},
+{f:"Perception", b:"**Hallucination** (ไม่มีสิ่งเร้า: visual/auditory/olfactory/gustatory/tactile) vs **Illusion** (มีสิ่งเร้าแต่แปลผิด)"},
+{f:"Conscious", b:"confusion→clouding→stupor→delirium→coma"},
+{f:"Orientation", b:"เวลา/สถานที่/บุคคล"},
+{f:"Judgment", b:"สถานการณ์จำลอง"},
+{f:"Insight", b:"ผู้ป่วยจิตเวชมักบอกว่าตนไม่ป่วย (Poor insight)"},
+{f:"Abstract thinking", b:"concrete (ตอบตรงตัว) vs abstract (ตีความ)"},
+{f:"Memory", b:"Recent (≤1-2 วัน) / Remote (นาน) / Recall (~5 นาที)"},
+{f:"ระดับการรู้สึกตัว 5 ระดับเรียงลำดับ", b:"confusion→clouding→stupor→delirium→coma"},
+{f:"Self-esteem", b:"คำถามที่ควรใช้ vs ห้ามใช้"},
+{f:"**Visual acuity**", b:"Snellen chart"},
+{f:"**Pinhole test**", b:"ใช้เมื่อ VA แย่กว่า 20/30"},
+{f:"**Pupil light reflex**", b:"Direct=ipsilateral (**CN II**), Consensual=contralateral (**CN III**)"},
+{f:"**EOM**", b:"มองตาม 6 ทิศ"},
+{f:"**Visual field**", b:"Confrontation test"},
+{f:"Whispering test", b:"ยืนห่าง **2 ฟุต** กระซิบ"},
+{f:"**Weber test**", b:"Tuning fork (512/256 Hz) วางกลางศีรษะ"},
+{f:"**Rinne test**", b:"เทียบ AC vs BC ข้างเดียวกัน"},
+{f:"Petechia / Purpura / Ecchymosis", b:"1–3 mm / 3–10 mm / ใหญ่กว่า Purpura (เล็ก→ใหญ่)"},
+{f:"Papule / Nodule / Tumor", b:"Papule <0.5 cm, Nodule >0.5 cm (ลึกถึงไขมัน), Tumor >2 cm"},
+{f:"Macule / Patch", b:"Patch = Macule ขนาด >1 cm (ต่างแค่ขนาด)"},
+{f:"Vesicle / Bulla", b:"ตัดที่ 0.5 cm (Bulla ใหญ่กว่า)"},
+{f:"Erosion / Ulcer", b:"Erosion ตื้น (epidermis); Ulcer ลึกถึง dermis/ไขมัน"},
+{f:"Normal", b:"1:2"},
+{f:"**Barrel chest (อกถัง)**", b:"~1:1"},
+{f:"**Funnel chest (Pectus excavatum)**", b:"AP ลดลง บุ๋มที่ sternum ล่าง"},
+{f:"**Pigeon chest (Pectus carinatum)**", b:"AP กว้างขึ้น sternum โป่ง"},
+{f:"Tachypnea", b:">24"},
+{f:"Hyperventilation", b:">24"},
+{f:"Bradypnea", b:"<10"},
+{f:"Hypoventilation", b:"<10"},
+{f:"Cheyne-Stokes", b:"variable"},
+{f:"Kussmaul", b:"ปกติ/ช้า/เร็ว"},
+{f:"Orthopnea", b:"-"},
+{f:"Dyspnea", b:"-"},
+{f:"Sighing respiration", b:"-"},
+{f:"Stridor", b:"Dry"},
+{f:"Rhonchi", b:"Dry"},
+{f:"Pleural friction rub", b:"Dry"},
+{f:"Rales (fine/medium/coarse)", b:"Moist"},
+{f:"Wheezing", b:"-"},
+{f:"Aortic", b:"Systolic, ร้าวไปคอ"},
+{f:"Mitral", b:"Diastolic + **opening snap**, Apex"},
+{f:"Pulmonic", b:"Systolic"},
+{f:"Tricuspid", b:"Diastolic"},
+{f:"Adventitious sounds", b:"Dry vs Moist และช่วงที่ได้ยิน"},
+{f:"Inspection", b:"Skin, Contour, Symmetry, Umbilicus, Peristalsis, Pulsation"},
+{f:"**Auscultation**", b:"Bowel sound"},
+{f:"Percussion", b:"ลม/ก้อน/ขนาดอวัยวะ"},
+{f:"Palpation", b:"ถามก่อนว่าเจ็บตรงไหน; **คลำจุดที่ปวดเป็นลำดับสุดท้าย**"},
+{f:"Visceral", b:"ขอบเขตไม่ชัด intermittent เป็นๆหายๆ"},
+{f:"Parietal", b:"ปวดตื้อๆ แย่ลงเมื่อคลำ/ไอ/จาม (ระคายเคือง peritoneum)"},
+{f:"Referred", b:"ปวดตำแหน่งอื่นห่างจากจุดกำเนิด (เช่น ไหล่ขวา จาก Gallbladder/Liver)"},
+{f:"I", b:"Olfactory"},
+{f:"II", b:"Optic"},
+{f:"III", b:"Oculomotor"},
+{f:"IV", b:"Trochlear"},
+{f:"V", b:"Trigeminal"},
+{f:"VI", b:"Abducens"},
+{f:"VII", b:"Facial"},
+{f:"VIII", b:"Acoustic"},
+{f:"IX", b:"Glossopharyngeal"},
+{f:"X", b:"Vagus"},
+{f:"XI", b:"Spinal accessory"},
+{f:"XII", b:"Hypoglossal"},
+{f:"0", b:"ไม่มีรีเฟล็กซ์"},
+{f:"1+", b:"น้อยกว่าปกติ"},
+{f:"2+", b:"ปกติ"},
+{f:"3+", b:"ไว"},
+{f:"4+", b:"ไวมากกว่าปกติ"},
+{f:"0", b:"เคลื่อนไหวไม่ได้เลย"},
+{f:"1", b:"เห็นการเคลื่อนไหวเล็กน้อย"},
+{f:"2", b:"เคลื่อนไหวแนวราบได้ ต้านแรงโน้มถ่วงไม่ได้"},
+{f:"3", b:"ต้านแรงโน้มถ่วงได้ แต่ต้านแรงผู้ตรวจไม่ได้"},
+{f:"4", b:"ต้านแรงผู้ตรวจได้ไม่เต็มที่"},
+{f:"5", b:"ปกติ ต้านแรงผู้ตรวจได้เต็มที่"},
+{f:"Hemoglobin", b:"< 7-8 g/dL"},
+{f:"Platelet", b:"< 50,000/mm³"},
+{f:"INR (ไม่ใช้ยา)", b:"> 1.5"},
+{f:"Potassium", b:"< 3.0 หรือ > 6.0 mEq/L"},
+{f:"Creatinine", b:"> 2.5 mg/dL"},
+{f:"Glucose (FBS)", b:"> 300 mg/dL"},
+{f:"Correct", b:"ถูกต้อง เป็นจริง ต่อเนื่อง ไม่มีอคติส่วนตัว"},
+{f:"Complete", b:"ครบถ้วนทุกมิติ (กาย จิตใจ อารมณ์ สังคม)"},
+{f:"Clear", b:"ชัดเจน อ่านง่าย ใช้อักษรย่อสากล"},
+{f:"Concise", b:"กระชับ ตรงประเด็น"},
+{f:"**S**ign", b:"ลงนามผู้บันทึก บันทึกทันทีหลังให้การพยาบาล"}
+];
+
+let order = CARDS.map((_,i)=>i);
+let idx = 0;
+let flipped = false;
+let shuffled = false;
+
+const cardEl = document.getElementById('card');
+const frontEl = document.getElementById('frontContent');
+const backEl = document.getElementById('backContent');
+const progressEl = document.getElementById('progress');
+const progressFillEl = document.getElementById('progressFill');
+const shuffleBtn = document.getElementById('shuffleBtn');
+
+function escapeHtml(str){
+  return str
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;');
+}
+
+function renderText(str){
+  let esc = escapeHtml(str);
+  esc = esc.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  return esc;
+}
+
+function renderCard(){
+  const cur = CARDS[order[idx]];
+  frontEl.innerHTML = renderText(cur.f);
+  backEl.innerHTML = renderText(cur.b);
+  cardEl.classList.remove('flipped');
+  flipped = false;
+  progressEl.textContent = `การ์ด ${idx+1}/${CARDS.length}`;
+  progressFillEl.style.width = `${((idx+1)/CARDS.length)*100}%`;
+}
+
+function flipCard(){
+  flipped = !flipped;
+  cardEl.classList.toggle('flipped', flipped);
+}
+
+function nextCard(){
+  idx = (idx+1) % order.length;
+  renderCard();
+}
+
+function prevCard(){
+  idx = (idx-1+order.length) % order.length;
+  renderCard();
+}
+
+function shuffleCards(){
+  for(let i=order.length-1;i>0;i--){
+    const j = Math.floor(Math.random()*(i+1));
+    [order[i],order[j]] = [order[j],order[i]];
+  }
+  idx = 0;
+  shuffled = true;
+  shuffleBtn.classList.add('active');
+  renderCard();
+}
+
+function resetOrder(){
+  order = CARDS.map((_,i)=>i);
+  idx = 0;
+  shuffled = false;
+  shuffleBtn.classList.remove('active');
+  renderCard();
+}
+
+cardEl.addEventListener('click', flipCard);
+document.getElementById('flipBtn').addEventListener('click', flipCard);
+document.getElementById('nextBtn').addEventListener('click', nextCard);
+document.getElementById('prevBtn').addEventListener('click', prevCard);
+document.getElementById('shuffleBtn').addEventListener('click', shuffleCards);
+document.getElementById('resetBtn').addEventListener('click', resetOrder);
+
+document.addEventListener('keydown', (e)=>{
+  if(e.key === 'ArrowRight'){ e.preventDefault(); nextCard(); }
+  else if(e.key === 'ArrowLeft'){ e.preventDefault(); prevCard(); }
+  else if(e.key === ' ' || e.key === 'Enter'){ e.preventDefault(); flipCard(); }
+});
+
+renderCard();
+</script>
+</body>
+</html>
